@@ -6,7 +6,7 @@ function  isXHR() {
 
 function connect() {
 	global $pdo;
-	$pdo = new PDO('mysql:host=localhost;dbname=sakila', 'rock', 'Star1967');
+	$pdo = new PDO('mysql:host=localhost;dbname=sakila', 'username', 'password');
 }
 
 function get_actors_by_last_name( $letter ) {
